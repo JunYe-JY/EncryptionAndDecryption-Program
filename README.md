@@ -4,9 +4,9 @@ This Python program uses the Crypto library to perform file encryption and decry
 
 
 To run this program you must the follow commands:
-  TO ENCRYPT:
+TO ENCRYPT:
       python3 main.py --encrypt public.pem plaintext.txt encryptedfile.txt
-  TO DECRYPT:
+TO DECRYPT:
       python3 main.py --decrypt private.key encryptedfile.txt decryptedfile.txt
 
 
