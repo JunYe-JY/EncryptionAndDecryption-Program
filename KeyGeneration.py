@@ -1,6 +1,6 @@
 from Crypto.PublicKey import RSA
 
-def generate():
+def generateKey():
     key = RSA.generate(2048)
     private_key = key.export_key()
     file_out = open("private.key", "wb")
