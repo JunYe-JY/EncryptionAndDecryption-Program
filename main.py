@@ -1,6 +1,6 @@
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.PublicKey import RSA
-from KeyGeneration import generate
+from KeyGeneration import generateKey
 import argparse
 import sys
 
@@ -41,7 +41,7 @@ def decrypt_file(recipient_private_key_file, input_file, output_file):
         print(f"Decryption failed: {str(e)}")
 
 if __name__ == "__main__":
-    generate()
+    generateKey()
     parser = argparse.ArgumentParser(description="PGP Encryption/Decryption")
     parser.add_argument("--encrypt", action="store_true", help="Perform encryption")
     parser.add_argument("--decrypt", action="store_true", help="Perform decryption")
