@@ -17,6 +17,5 @@ To decrypt: python main.py --decrypt recipient_key input_file output_file
 
 # Dependencies:
 
-PyCryptodome: Install it using pip install pycryptodome.
-Feel free to customize the code to fit your needs, and explore the world of RSA-based PGP encryption and decryption with this straightforward implementation.
-
+PyCryptodome: Install it using
+pip install pycryptodome.
