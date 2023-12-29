@@ -10,8 +10,11 @@ A Python program that uses the Crypto library to perform file encryption and dec
 
 Run KeyGeneration.py to generate the RSA key pair.
 Use main.py to perform encryption or decryption. The script accepts command-line arguments, including the recipient's key file, input file, and output file.
+
 To encrypt: python main.py --encrypt recipient_key input_file output_file
+
 To decrypt: python main.py --decrypt recipient_key input_file output_file
+
 # Dependencies:
 
 PyCryptodome: Install it using pip install pycryptodome.
